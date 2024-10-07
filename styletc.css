@@ -1,0 +1,246 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bingkai{
+    width:600px;
+    height: fit-content;   
+    justify-content: center; 
+    position: absolute;   
+    transform: translate(50%);
+    padding: 20px; 
+    align-content: center; 
+    align-items: center; 
+}
+.atas{
+    display:flex;
+    justify-content: space-between;
+}
+
+img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0; 
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0.5);    
+}
+
+p{
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    text-align: justify;
+}
+h4{
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.dialog-box{
+    width: 220px;
+    height: 100px;
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px; 
+    border-radius: 30px;
+    align-content: center;
+}
+.putih{
+    color: white;
+    text-align: justify;
+    margin: 0%;
+}
+.ketupat-box{
+    width: 15px;
+    height: 15px;    
+    transform: rotate(45deg);
+    background-color: black;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 8px;
+    z-index: -1;
+    }
+    
+.bulat{
+    width: 70px;
+    height: 70px;
+    padding: 0px; 
+    border-radius: 50%;      
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background-image: url(asset/Dian.png);  
+    background-size: cover;  
+    
+    
+}
+.kanan-atas{
+    width: 320px;
+    height: 190px;
+    border: 2px solid black; 
+    padding: 10px; 
+    border-radius: 25px;
+    justify-content: space-evenly;
+    }  
+
+
+.tulisan-bawahnya{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    }   
+
+.box5{
+    width: fit-content;
+    margin: 0; 
+    padding: 0;  
+
+}
+.box6{
+    width: 70px;  
+    height: 70px;  
+    border-radius: 50%;
+    margin: 0;    
+    padding: 0;
+    background-image: url(asset/Raisa.png);  
+    background-size: cover;
+       
+}
+.box7{
+    width: fit-content;
+    height: 25px;    
+    padding: 10px;  
+   
+}
+
+.tengah{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.box8{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: url(asset/wo\ jin\ ah.png);  
+    background-size: cover;  
+}
+.box9{
+    width: 330px;
+    height: 190px;
+    padding: 15px;   
+    border: 2px solid black;
+    background-color: black;    
+    border-radius: 25px;
+    align-content: center;
+    align-items: center;   
+}
+.box-bawah{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 25px;
+    }
+.bawah{
+   margin: 20px;
+}
+  
+.bulat-bawah{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;    
+    gap: 20px; /* Memberi jarak 20px antar elemen */
+    justify-content: center; /* Menempatkan elemen di tengah */
+    
+}
+.box10{
+   width: 550px;
+    height: 200px;    
+    padding: 10px;  
+    border-radius: 25px;
+    justify-content: space-evenly;
+}  
+
+.box11{
+    width: fit-content;
+    text-align: center;    
+    justify-content: flex-start;  
+}
+.box12{
+    width: 50px;
+    height: 50px;    
+    padding: 10px;  
+    border-radius: 50%;   
+      
+}
+.box13{
+    width: 40px;
+    height: 40px;     
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+      
+}    
+
+.box14{
+    width: 80px;
+    height: 80px;    
+    border-radius: 50%; 
+    background-image: url(asset/wo\ jin\ ah.png);  
+    background-size: cover;     
+}
+.box15{
+    width: 40px;
+    height: 40px;    
+    border-radius: 50%;   
+    background-color: rgba(255, 255, 255, 0.5);
+       
+}
+
+.kiri{
+    width: 20px;
+    height: 20px;
+    background-image: url(asset/kiri.png);  
+    background-size: cover;
+    border: none;
+}
+.kanan{
+    width: 20px;
+    height: 20px;
+    background-image: url(asset/kanan.png);  
+    background-size: cover;
+    border: none;
+}
+h1{
+  color: yellow;
+  margin: 0;
+  margin-top: -10px;
+  margin-left: 7px;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+h2{
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 7px;
+}  
+h3{
+    color: grey;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 7px;
+} 
+
+.putih1{
+    color: white;
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 7px;
+}
